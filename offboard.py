@@ -8,7 +8,7 @@ import requests
 model = YOLO('../yolov8n.pt')
 
 # Video stream URL
-video_url = 'http://' # Replace with your Camera's IP address
+video_url = 'http://<your camera ip>/video' # Replace <your camera ip> with your Camera's IP address
 
 # ESP32 HTTP endpoint
 ESP32_IP = "http://"  # Replace with your ESP32's IP address
