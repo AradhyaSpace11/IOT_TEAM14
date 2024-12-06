@@ -5,13 +5,13 @@ from ultralytics import YOLO
 import requests
 
 # Load the YOLOv8 model
-model = YOLO('yolov8n.pt')
+model = YOLO('../yolov8n.pt')
 
 # Video stream URL
-video_url = 'http://192.0.0.4:8080/video' # Replace with your Camera's IP address
+video_url = 'http://' # Replace with your Camera's IP address
 
 # ESP32 HTTP endpoint
-ESP32_IP = "http://192.168.69.216"  # Replace with your ESP32's IP address
+ESP32_IP = "http://"  # Replace with your ESP32's IP address
 
 # Initialize the video capture
 cap = cv2.VideoCapture(video_url)
