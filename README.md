@@ -78,3 +78,7 @@ python offboard.py
 - Ensure your laptop/PC and ESP32 are both connected to the same mobile hotspot.
 - Verify that the ESP32 is running and that the mobile app stream is active.
 - If you encounter any issues, feel free to open an issue in the repository.
+
+## **10. Upcoming Features**
+
+3D model and ESPCam implementation will come shortly.
