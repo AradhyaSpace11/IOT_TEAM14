@@ -95,4 +95,4 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-#This code runs on the laptop/PC
+#This code runs on the laptop/PC, to run see Readme
